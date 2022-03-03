@@ -1,0 +1,13 @@
+version: '3'
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: my_flask_Nginx_uWSGI
+    volumes:
+      - ./:/workspace
+    stdin_open: true
+    tty: true
+    ports:
+    - "127.0.0.1:8888:80"
