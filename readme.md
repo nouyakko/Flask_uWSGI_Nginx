@@ -7,7 +7,7 @@ git clone git@github.com:nouyakko/Flask_uWSGI_Nginx.git
 です。
 その後、
 ```
-cd .\Flask_uWSGI_Nginx\
+cd Flask_uWSGI_Nginx
 ```
 でフォルダに入って、
 ```
