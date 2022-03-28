@@ -26,6 +26,6 @@ service nginx start
 でuWSGIとNginxを起動します。  
 後はブラウザで
 ```
-http://127.0.0.1:8888
+http://127.0.0.1:80
 ```
 にアクセスすれば「Hello world Flask」が表示されます。
